@@ -11,13 +11,22 @@ public class TwitterLoad : MonoBehaviour {
         Twitter.Oauth.consumerSecret = "sXNrpClcZABNILxml2EY2tcah3c6bWMQmYbzhTDgfdZMmIcGx7";
         Twitter.Oauth.accessToken = "882304356820955136-yOKXoN0NIbn00JIhORKcEt6ju5HflHW";
         Twitter.Oauth.accessTokenSecret = "3AGIZncQ1WKSqjqN85YgMvRh01ojreddfs9yUmR2Ez3gG";
-
+        getTimeline();
+        
+    }
+    void getTimeline()
+    {
+        Dictionary<string, string> parameters = new Dictionary<string, string>();
+        parameters["count"] = 30.ToString(); ;
+        StartCoroutine(Client.Get("statuses/home_timeline", parameters, this.Callback));
+    }
+    void getPerson()
+    {
         Dictionary<string, string> parameters = new Dictionary<string, string>();
         parameters["screen_name"] = "realDonaldTrump";
         parameters["userid"] = "25073877";
         StartCoroutine(Client.Get("statuses/user_timeline", parameters, this.Callback));
     }
-
     void Callback(bool success, string response)
     {
         if (success)
