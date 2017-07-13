@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: ce35db82a2df824449a401fc0af44c8a
+timeCreated: 1499971726
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera
+    100002: camera
+    100004: Camera_Target_1
+    100006: Cap_1
+    100008: Cap_1_2
+    100010: Cap_1_3
+    100012: Cap_1_4
+    100014: Cap_1_5
+    100016: Cap_2
+    100018: Cap_2_2
+    100020: Cap_2_3
+    100022: Cap_2_4
+    100024: Cap_2_5
+    100026: CINEMA_4D_Editor
+    100028: Floor
+    100030: icons
+    100032: icons_1
+    100034: Light
+    100036: Light_1
+    100038: Light_Target_1
+    100040: meta
+    100042: Null
+    100044: Path_1
+    100046: Path_1_2
+    100048: Path_1_3
+    100050: Path_3
+    100052: Path_4
+    100054: Path_5
+    100056: Path_7
+    100058: Rounding_1
+    100060: Rounding_2
+    100062: Tube
+    100064: Tube_1
+    100066: Tube_2
+    100068: //RootNode
+    100070: twitterUI
+    100072: twitterUI_2
+    400000: Camera
+    400002: camera
+    400004: Camera_Target_1
+    400006: Cap_1
+    400008: Cap_1_2
+    400010: Cap_1_3
+    400012: Cap_1_4
+    400014: Cap_1_5
+    400016: Cap_2
+    400018: Cap_2_2
+    400020: Cap_2_3
+    400022: Cap_2_4
+    400024: Cap_2_5
+    400026: CINEMA_4D_Editor
+    400028: Floor
+    400030: icons
+    400032: icons_1
+    400034: Light
+    400036: Light_1
+    400038: Light_Target_1
+    400040: meta
+    400042: Null
+    400044: Path_1
+    400046: Path_1_2
+    400048: Path_1_3
+    400050: Path_3
+    400052: Path_4
+    400054: Path_5
+    400056: Path_7
+    400058: Rounding_1
+    400060: Rounding_2
+    400062: Tube
+    400064: Tube_1
+    400066: Tube_2
+    400068: //RootNode
+    400070: twitterUI
+    400072: twitterUI_2
+    2300000: Cap_1
+    2300002: Cap_1_2
+    2300004: Cap_1_3
+    2300006: Cap_1_4
+    2300008: Cap_1_5
+    2300010: Cap_2
+    2300012: Cap_2_2
+    2300014: Cap_2_3
+    2300016: Cap_2_4
+    2300018: Cap_2_5
+    2300020: Path_1_2
+    2300022: Path_3
+    2300024: Path_4
+    2300026: Path_5
+    2300028: Path_7
+    2300030: Rounding_1
+    2300032: Rounding_2
+    3300000: Cap_1
+    3300002: Cap_1_2
+    3300004: Cap_1_3
+    3300006: Cap_1_4
+    3300008: Cap_1_5
+    3300010: Cap_2
+    3300012: Cap_2_2
+    3300014: Cap_2_3
+    3300016: Cap_2_4
+    3300018: Cap_2_5
+    3300020: Path_1_2
+    3300022: Path_3
+    3300024: Path_4
+    3300026: Path_5
+    3300028: Path_7
+    3300030: Rounding_1
+    3300032: Rounding_2
+    4300000: Path_1_2
+    4300002: Rounding_1
+    4300004: Cap_1
+    4300006: Rounding_2
+    4300008: Cap_2
+    4300010: Path_3
+    4300012: Cap_1_2
+    4300014: Cap_2_2
+    4300016: Path_4
+    4300018: Cap_1_3
+    4300020: Cap_2_3
+    4300022: Path_5
+    4300024: Cap_1_4
+    4300026: Cap_2_4
+    4300028: Path_7
+    4300030: Cap_1_5
+    4300032: Cap_2_5
+    7400000: CINEMA_4D_Main
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

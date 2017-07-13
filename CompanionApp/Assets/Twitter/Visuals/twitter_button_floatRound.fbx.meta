@@ -1,0 +1,225 @@
+fileFormatVersion: 2
+guid: 5227ed970a37a6347978a05b0de0f0ff
+timeCreated: 1499971726
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera
+    100002: camera
+    100004: Camera_Target_1
+    100006: Cap_1
+    100008: Cap_1_2
+    100010: Cap_1_3
+    100012: Cap_1_4
+    100014: Cap_1_5
+    100016: Cap_1_6
+    100018: Cap_2
+    100020: Cap_2_2
+    100022: Cap_2_3
+    100024: Cap_2_4
+    100026: Cap_2_5
+    100028: Cap_2_6
+    100030: CINEMA_4D_Editor
+    100032: Floor
+    100034: icons
+    100036: icons_1
+    100038: Light
+    100040: Light_1
+    100042: Light_Target_1
+    100044: meta
+    100046: Null
+    100048: optionsCard
+    100050: Path_1
+    100052: Path_1_2
+    100054: Path_1_3
+    100056: Path_3
+    100058: Path_4
+    100060: Path_5
+    100062: Path_7
+    100064: Rounding_1
+    100066: Rounding_1_2
+    100068: Rounding_2
+    100070: Rounding_2_2
+    100072: Tube
+    100074: //RootNode
+    100076: twitterUI
+    100078: twitterUI_2
+    400000: Camera
+    400002: camera
+    400004: Camera_Target_1
+    400006: Cap_1
+    400008: Cap_1_2
+    400010: Cap_1_3
+    400012: Cap_1_4
+    400014: Cap_1_5
+    400016: Cap_1_6
+    400018: Cap_2
+    400020: Cap_2_2
+    400022: Cap_2_3
+    400024: Cap_2_4
+    400026: Cap_2_5
+    400028: Cap_2_6
+    400030: CINEMA_4D_Editor
+    400032: Floor
+    400034: icons
+    400036: icons_1
+    400038: Light
+    400040: Light_1
+    400042: Light_Target_1
+    400044: meta
+    400046: Null
+    400048: optionsCard
+    400050: Path_1
+    400052: Path_1_2
+    400054: Path_1_3
+    400056: Path_3
+    400058: Path_4
+    400060: Path_5
+    400062: Path_7
+    400064: Rounding_1
+    400066: Rounding_1_2
+    400068: Rounding_2
+    400070: Rounding_2_2
+    400072: Tube
+    400074: //RootNode
+    400076: twitterUI
+    400078: twitterUI_2
+    2300000: Cap_1
+    2300002: Cap_1_2
+    2300004: Cap_1_3
+    2300006: Cap_1_4
+    2300008: Cap_1_5
+    2300010: Cap_1_6
+    2300012: Cap_2
+    2300014: Cap_2_2
+    2300016: Cap_2_3
+    2300018: Cap_2_4
+    2300020: Cap_2_5
+    2300022: Cap_2_6
+    2300024: optionsCard
+    2300026: Path_1_2
+    2300028: Path_3
+    2300030: Path_4
+    2300032: Path_5
+    2300034: Path_7
+    2300036: Rounding_1
+    2300038: Rounding_1_2
+    2300040: Rounding_2
+    2300042: Rounding_2_2
+    3300000: Cap_1
+    3300002: Cap_1_2
+    3300004: Cap_1_3
+    3300006: Cap_1_4
+    3300008: Cap_1_5
+    3300010: Cap_1_6
+    3300012: Cap_2
+    3300014: Cap_2_2
+    3300016: Cap_2_3
+    3300018: Cap_2_4
+    3300020: Cap_2_5
+    3300022: Cap_2_6
+    3300024: optionsCard
+    3300026: Path_1_2
+    3300028: Path_3
+    3300030: Path_4
+    3300032: Path_5
+    3300034: Path_7
+    3300036: Rounding_1
+    3300038: Rounding_1_2
+    3300040: Rounding_2
+    3300042: Rounding_2_2
+    4300000: Path_1_2
+    4300002: Rounding_1
+    4300004: Cap_1
+    4300006: Rounding_2
+    4300008: Cap_2
+    4300010: Path_3
+    4300012: Cap_1_2
+    4300014: Cap_2_2
+    4300016: Path_4
+    4300018: Cap_1_3
+    4300020: Cap_2_3
+    4300022: Path_5
+    4300024: Cap_1_4
+    4300026: Cap_2_4
+    4300028: Path_7
+    4300030: Cap_1_5
+    4300032: Cap_2_5
+    4300034: optionsCard
+    4300036: Rounding_1_2
+    4300038: Cap_1_6
+    4300040: Rounding_2_2
+    4300042: Cap_2_6
+    7400000: CINEMA_4D_Main
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

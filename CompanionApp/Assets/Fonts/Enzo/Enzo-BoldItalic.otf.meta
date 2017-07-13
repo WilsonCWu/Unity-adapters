@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 4080acb56447e784091cfe5bdb0d9c9a
+timeCreated: 1499984053
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Enzo OT
+  fontNames:
+  - Enzo OT
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0898a5429e333074badc079d6d74e628, type: 3}
+  - {fileID: 12800000, guid: 05c63b425642c924bbe0ee9051056b99, type: 3}
+  - {fileID: 12800000, guid: 285a74492149d1d4286adea1eaac5eee, type: 3}
+  - {fileID: 12800000, guid: 1cc2bc6c392f65747915256b82c8cbc6, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
