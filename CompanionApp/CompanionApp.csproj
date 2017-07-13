@@ -125,6 +125,7 @@
     <Compile Include="Assets\Twitter\TwitterStreamType.cs" />
     <Compile Include="Assets\Twitter\twitterJson.cs" />
     <Compile Include="Assets\Twitter\twitterRequest.cs" />
+    <Compile Include="Assets\TwitterContentSetter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Fonts\Anton OFL.txt" />
