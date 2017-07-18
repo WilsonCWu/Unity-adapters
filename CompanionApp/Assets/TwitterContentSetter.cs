@@ -13,14 +13,25 @@ public class TwitterContentSetter : MonoBehaviour {
     private GameObject twitterID;
     [SerializeField]
     private GameObject icons;
+	[SerializeField]
+	private GameObject commentsText;
+	[SerializeField]
+	private GameObject retweetsText;
+	[SerializeField]
+	private GameObject likesText;
+
     
     void Start () {
+		setContent("http://whysquare.co.nz/wp-content/uploads/2013/07/profile_square3-270x270.jpg", "myName", "myPost", "1", "2", "3");
 	}
-    public void setContent(string profileLink, string displayName, string text)
+    public void setContent(string profileLink, string displayName, string text, string numComments, string numRetweets, string numLikes)
     {
         StartCoroutine(SetProfile(profileLink));
         twitterID.GetComponent<TextMeshPro>().text = displayName;
         contentText.GetComponent<TextMeshPro>().text = text;
+		commentsText.GetComponent<TextMeshPro>().text = numComments;
+		retweetsText.GetComponent<TextMeshPro>().text = numRetweets;
+		likesText.GetComponent<TextMeshPro>().text = numLikes;
     }
     private IEnumerator SetProfile(string profileLink)
     {
