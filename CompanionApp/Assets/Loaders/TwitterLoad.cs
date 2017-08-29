@@ -4,7 +4,8 @@ using UnityEngine;
 using Twitter;
 
 public class TwitterLoad : MonoBehaviour {
-
+	[SerializeField]
+	private GameObject tweetPrefab;
 	// Use this for initialization
 	void Start () {
         Twitter.Oauth.consumerKey = "q33oAyhv3DUm2N9DwuYtd6Oqn";
@@ -36,12 +37,11 @@ public class TwitterLoad : MonoBehaviour {
             StatusesHomeTimelineResponse Response = JsonUtility.FromJson<StatusesHomeTimelineResponse>(response);
             for (int i = 0; i < Response.items.Length; i++)
             {
-                if (Response.items[i].text.Length < 4 || Response.items[i].text.Substring(0,4) != "RT @")
+                if (Response.items[i].text.Length < 4 || Response.items[i].text.Substring(0,4) != "RT @") //doesnt display retweets
                 {
                     CreateTweet(Response.items[i]);
                 }
             }
-            //Debug.Log(response);
         }
         else
         {
@@ -50,7 +50,19 @@ public class TwitterLoad : MonoBehaviour {
     }
     void CreateTweet(Twitter.Tweet tweet)
     {
-        Debug.Log(tweet.user.profile_image_url);
+		GameObject newTweet = Instantiate(tweetPrefab);
+
+		int retweetCount = tweet.retweet_count;
+		string retweetCountStr = retweetCount > 1000 ? (retweetCount / 1000).ToString()+"K" : retweetCount.ToString();
+		int favCount = tweet.favorite_count;
+		string favCountStr = favCount > 1000 ? (favCount / 1000).ToString()+"K" : favCount.ToString();
+		int commentCount = (int)Mathf.Round((retweetCount + favCount) * Random.Range(0.05f, 0.3f));
+		string commentCountStr = commentCount > 1000 ? (commentCount / 1000).ToString() + "K" : commentCount.ToString();
+
+		newTweet.GetComponent<TwitterContentSetter>().setContent(tweet.user.profile_image_url, tweet.user.name, tweet.text, commentCountStr, retweetCountStr,favCountStr );
+        
+		/*
+		Debug.Log(tweet.user.profile_image_url);
         Debug.Log(tweet.user.name); //actual name
         Debug.Log(tweet.user.screen_name); //handle
         Debug.Log("TIME: " + tweet.created_at);
@@ -63,5 +75,6 @@ public class TwitterLoad : MonoBehaviour {
                 Debug.Log(url.type + "\t" + url.media_url);
             }
         }
+        */
     }
 }

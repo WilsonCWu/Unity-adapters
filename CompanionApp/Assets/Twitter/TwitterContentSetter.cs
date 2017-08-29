@@ -22,7 +22,7 @@ public class TwitterContentSetter : MonoBehaviour {
 
     
     void Start () {
-		setContent("http://whysquare.co.nz/wp-content/uploads/2013/07/profile_square3-270x270.jpg", "myName", "myPost", "1", "2", "3");
+		//setContent("http://whysquare.co.nz/wp-content/uploads/2013/07/profile_square3-270x270.jpg", "myName", "myPost", "1", "2", "3");
 	}
     public void setContent(string profileLink, string displayName, string text, string numComments, string numRetweets, string numLikes)
     {
